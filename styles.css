@@ -1,0 +1,100 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+h2 {
+  color: black;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-size: 40 px;
+  margin-top: -3px;
+  letter-spacing: -0.25px;
+  line-height: 1.2;
+}
+.card-block {
+  /* padding: 2px; */
+  margin-left: 4px;
+}
+.col-center {
+  margin: 0 auto;
+  float: none !important;
+}
+.carousel {
+  margin: 30px auto;
+  padding: 0 70px;
+}
+.carousel-item {
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+  min-height: 290px;
+}
+.carousel .item .img-box {
+  width: 135px;
+  height: 135px;
+  margin: 0 auto;
+  padding: 5 px;
+  border: 1 px solid #ddd;
+  border-radius: 50%;
+}
+.carousel .img-box img {
+  width: 100%;
+  height: 100%;
+  display: black;
+  border-radius: 50%;
+}
+.carousel .testimonial {
+  padding: 10px 30px 10px;
+}
+.carousel .carousel-control {
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  top: 50%;
+  background: none;
+}
+.carousel-control i {
+  font-size: 68px;
+  line-height: 42px;
+  /* position: absolute; */
+  color: rgb(238, 31, 31);
+  /* color: rgba(0, 0, 0, 0, 8); */
+  /* text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000; */
+}
+.carousel .carousel-indicators {
+  bottom: -40px;
+}
+.carousel-control-next-icon:after,
+.carousel-control-prev-icon:after {
+  content: ">";
+  font-size: 55px;
+  color: grey;
+  line-height: 42px;
+  /* position: absolute; */
+  color: rgba(0, 0, 0, 0, 8);
+  text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  /* padding-right: 100px;
+  margin-right: 10px; */
+}
+.carousel-indicators li,
+.carousel-indicators li.active {
+  width: 10px;
+  height: 10px;
+  margin: 1px 3px;
+  border-radius: 50%;
+}
+.carousel-indicators li {
+  background: #999;
+  background-color: rgb(204, 200, 200);
+  box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.carousel-indicators li.active {
+  background: #555;
+  box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
